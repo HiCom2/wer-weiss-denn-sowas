@@ -1,14 +1,46 @@
 .tile {
-	border: 1px solid white;
+	border: 3px solid #00c3ff;
+	box-shadow: 0 0 2px #00c3ff;
+	background-image: url(../../../assets/transparency.png),
+		linear-gradient(200deg, #00e1ff, #0044d6, #0020d6, #0015d6, #0015d6);
+	background-size: 200px, 200px;
+	border-radius: 5%;
 	width: 200px;
 	height: 200px;
 	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 3px;
+	overflow: hidden;
+}
+
+.tile:hover {
+	background-image: url(../../../assets/transparency.png),
+		linear-gradient(200deg, #ffd900, #fa5c00, #fa5c00, #fa5c00, #ffd900);
+	border: 3px solid #ffa600;
+	box-shadow: 0 0 5px #ffa600;
+}
+
+.marked {
+	background-image: linear-gradient(
+		200deg,
+		#ffd900,
+		#fa5c00,
+		#fa5c00,
+		#fa5c00,
+		#ffd900
+	);
+	border: 3px solid #ffa600;
+	box-shadow: 0 0 5px #ffa600;
 }
 
 .categorytext {
 	font-size: 1.6em;
 	font-weight: 500;
+}
+
+.questionmark {
+	font-size: 4em;
+	text-shadow: 0 0 3px white;
 }

@@ -5,13 +5,11 @@ import team2img from '../../../assets/team2.png';
 
 const Category = props => {
 	const data = props.data;
+	var textClasses = [classes.categorytext];
+	if (props.data.category === '?') textClasses.push(classes.questionmark);
 	return (
-		<div class={classes.tile}>
-			<img src={''}></img>
-			<div class={classes.categorytext}>
-				<div class={classes.Done}></div>
-				{data.category}
-			</div>
+		<div className={classes.tile}>
+			<div className={textClasses.join(' ')}>{data.category}</div>
 		</div>
 	);
 };

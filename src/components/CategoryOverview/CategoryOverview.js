@@ -4,7 +4,7 @@ import Category from './Category/Category';
 
 const CategoryOverview = props => {
 	return (
-		<div class={classes.tiles}>
+		<div className={classes.tiles}>
 			{props.data.map((item, index) => {
 				return <Category data={item} />;
 			})}

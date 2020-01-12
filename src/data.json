@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"category": "Anal",
+		"category": "Fish",
 		"question": "How much does it cost?",
 		"answers": [
 			{
@@ -17,7 +17,7 @@
 				"text": "26.5$"
 			}
 		],
-		"correctAnswer": "b"
+		"correctAnswer": "c"
 	},
 	{
 		"id": 2,
@@ -62,6 +62,166 @@
 	{
 		"id": 4,
 		"category": "Chatter",
+		"question": "Who is the coolest chatter?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Games_Maik"
+			},
+			{
+				"id": "b",
+				"text": "Dummbatz"
+			},
+			{
+				"id": "c",
+				"text": "XRC_"
+			}
+		],
+		"correctAnswer": "a"
+	},
+	{
+		"id": 5,
+		"category": "Beer",
+		"question": "How much does it cost?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "15$"
+			},
+			{
+				"id": "b",
+				"text": "200$"
+			},
+			{
+				"id": "c",
+				"text": "26.5$"
+			}
+		],
+		"correctAnswer": "c"
+	},
+	{
+		"id": 6,
+		"category": "Cucumbers",
+		"question": "What did Arnold say?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Hello"
+			},
+			{
+				"id": "b",
+				"text": "I'll be black"
+			},
+			{
+				"id": "c",
+				"text": "get to the choppa"
+			}
+		],
+		"correctAnswer": "a"
+	},
+	{
+		"id": 7,
+		"category": "?",
+		"question": "Who is the coolest stream chat user?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Parralaxdicky"
+			},
+			{
+				"id": "b",
+				"text": "Sylens__"
+			},
+			{
+				"id": "c",
+				"text": "kraft_durch_bier"
+			}
+		],
+		"correctAnswer": "b"
+	},
+	{
+		"id": 8,
+		"category": "Spacing",
+		"question": "Who is the coolest chatter?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Games_Maik"
+			},
+			{
+				"id": "b",
+				"text": "Dummbatz"
+			},
+			{
+				"id": "c",
+				"text": "XRC_"
+			}
+		],
+		"correctAnswer": "a"
+	},
+	{
+		"id": 9,
+		"category": "Bud Spencer",
+		"question": "How much does it cost?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "15$"
+			},
+			{
+				"id": "b",
+				"text": "200$"
+			},
+			{
+				"id": "c",
+				"text": "26.5$"
+			}
+		],
+		"correctAnswer": "c"
+	},
+	{
+		"id": 10,
+		"category": "Bud Light",
+		"question": "What did Arnold say?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Hello"
+			},
+			{
+				"id": "b",
+				"text": "I'll be black"
+			},
+			{
+				"id": "c",
+				"text": "get to the choppa"
+			}
+		],
+		"correctAnswer": "a"
+	},
+	{
+		"id": 11,
+		"category": "Butt Pics",
+		"question": "Who is the coolest stream chat user?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Parralaxdicky"
+			},
+			{
+				"id": "b",
+				"text": "Sylens__"
+			},
+			{
+				"id": "c",
+				"text": "kraft_durch_bier"
+			}
+		],
+		"correctAnswer": "b"
+	},
+	{
+		"id": 12,
+		"category": "Nice",
 		"question": "Who is the coolest chatter?",
 		"answers": [
 			{

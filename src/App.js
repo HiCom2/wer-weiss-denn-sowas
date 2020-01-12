@@ -6,7 +6,10 @@ import data from './data.json';
 function App() {
 	return (
 		<div className="App">
-			<CategoryOverview data={data} />
+			<div className="headline">Wer weiß denn sowas?</div>
+			<div>
+				<CategoryOverview data={data} />
+			</div>
 		</div>
 	);
 }

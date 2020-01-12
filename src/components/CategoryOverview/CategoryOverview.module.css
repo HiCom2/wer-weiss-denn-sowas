@@ -2,4 +2,12 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+	flex-wrap: wrap;
+	height: 640px;
+	width: 850px;
+	padding: 2px;
+	border-radius: 2%;
+	border: 3px solid #ffa600;
+	box-shadow: 0 0 5px #ffa600;
+	margin: 5px;
 }

@@ -1,2 +1,13 @@
 .App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.headline {
+	color: white;
+	font-size: 3em;
+	margin: 10px;
+	text-shadow: 0 0 2px white;
 }
