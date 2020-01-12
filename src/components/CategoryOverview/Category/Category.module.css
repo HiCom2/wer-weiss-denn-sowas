@@ -1,0 +1,14 @@
+.tile {
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.categorytext {
+	font-size: 1.6em;
+	font-weight: 500;
+}
