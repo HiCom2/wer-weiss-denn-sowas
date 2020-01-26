@@ -1,0 +1,27 @@
+.Question {
+	color: white;
+	margin: 3px;
+	border: 3px solid #00c3ff;
+	box-shadow: 0 0 2px #00c3ff;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.9em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 12px;
+	height: 3em;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: 105% 105%;
+	background-image: url(../../../assets/transparency.png),
+		linear-gradient(180deg, #00e1ff, #0044d6, #0020d6, #0015d6, #0015d6);
+	padding: -3;
+}

@@ -1,8 +1,8 @@
 [
 	{
 		"id": 1,
-		"category": "Fish",
-		"question": "How much does it cost?",
+		"category": "Quick Math",
+		"question": "Fred buys a hot chocholate. It's 20°C outside. How many avocados can a kangaroo eat within 10 minutes?",
 		"answers": [
 			{
 				"id": "a",
@@ -10,11 +10,11 @@
 			},
 			{
 				"id": "b",
-				"text": "200$"
+				"text": "Yes!"
 			},
 			{
 				"id": "c",
-				"text": "26.5$"
+				"text": "Bacon ipsum dolor amet filet mignon flank prosciutto"
 			}
 		],
 		"correctAnswer": "c"
