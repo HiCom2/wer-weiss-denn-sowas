@@ -1,0 +1,9 @@
+.ActionButton {
+	width: 80px;
+	height: 80px;
+	border: 1px solid yellow;
+	color: #ffa600;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
