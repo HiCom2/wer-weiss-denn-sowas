@@ -10,7 +10,8 @@ const ActionButtons = props => {
 				onClick={() => {
 					console.log('yes!');
 				}}
-			></ActionButton>
+			/>
+			<ActionButton text="Close" onClick={() => props.CloseAction()} />
 		</div>
 	);
 };

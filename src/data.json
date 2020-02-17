@@ -1,242 +1,182 @@
 [
 	{
 		"id": 1,
-		"category": "Quick Math",
-		"question": "Fred buys a hot chocholate. It's 20°C outside. How many avocados can a kangaroo eat within 10 minutes?",
+		"category": "Erfindungen",
+		"question": "Im Jahr 1930 erfand Walter Nilsson ...?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "15$"
+				"text": "das Ballonfahren mit Kühltechnik"
 			},
 			{
 				"id": "b",
-				"text": "Yes!"
+				"text": "das Schwimmen ohne Nasswerden"
 			},
 			{
 				"id": "c",
-				"text": "Bacon ipsum dolor amet filet mignon flank prosciutto"
+				"text": "das Spazierengehen per Pedalkraft"
 			}
 		],
 		"correctAnswer": "c"
 	},
 	{
 		"id": 2,
-		"category": "Schwarzenegger",
-		"question": "What did Arnold say?",
+		"category": "Essen & Trinken",
+		"question": "Wann ist der Begriff Federweißer für den Verkauf nicht mehr zulässig?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Hello"
+				"text": "bei Unterbrechung der Gärung durch Konservierungsmaßnahmen"
 			},
 			{
 				"id": "b",
-				"text": "I'll be black"
+				"text": "bei einer Gärdauer von weniger als drei Monaten"
 			},
 			{
 				"id": "c",
-				"text": "get to the choppa"
+				"text": "bei einem Alkoholgehalt von mehr als 4 Vol.-%"
 			}
 		],
 		"correctAnswer": "a"
 	},
 	{
 		"id": 3,
-		"category": "Twitch Chat",
-		"question": "Who is the coolest stream chat user?",
+		"category": "Clever!",
+		"question": "Was ist beim reinigen von Sammlermünzen zu beachten?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Parralaxdicky"
+				"text": "verschiedene Metalle nicht zusammen ins Reinigungsbad geben"
 			},
 			{
 				"id": "b",
-				"text": "Sylens__"
+				"text": "Silber sollte immer gereinigt werden, Kupfer hingegen nie."
 			},
 			{
 				"id": "c",
-				"text": "kraft_durch_bier"
-			}
-		],
-		"correctAnswer": "b"
-	},
-	{
-		"id": 4,
-		"category": "Chatter",
-		"question": "Who is the coolest chatter?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Games_Maik"
-			},
-			{
-				"id": "b",
-				"text": "Dummbatz"
-			},
-			{
-				"id": "c",
-				"text": "XRC_"
+				"text": "Goldmünzen sieben Minuten bei 180 Grad im Backofen reinigen"
 			}
 		],
 		"correctAnswer": "a"
 	},
 	{
-		"id": 5,
-		"category": "Beer",
-		"question": "How much does it cost?",
+		"id": 4,
+		"category": "Andere Länder andere Sitten",
+		"question": "Wozu dient die 'Fleisch-Ampel', die in vielen traditionellen brasilianischen Restaurants ausliegt?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "15$"
+				"text": "Die Lokale geben so Auskunft über ihr vegetarisches Angebot."
 			},
 			{
 				"id": "b",
-				"text": "200$"
+				"text": "Köche legen offen, welchen Grilltyp sie nutzen."
 			},
 			{
 				"id": "c",
-				"text": "26.5$"
+				"text": "Gäste können Kellnern signalisieren, ob sie Nachschlag wollen."
+			}
+		],
+		"correctAnswer": "c"
+	},
+	{
+		"id": 5,
+		"category": "Einspruch",
+		"question": "Kann ein Pollenallergiker gerichtlich verlangen, dass der Nachbar einen Baum fällen muss?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "ja, wenn er vier weitere Betroffene in der Umgebung findet"
+			},
+			{
+				"id": "b",
+				"text": "ja, wenn die Allergie über sieben Monate andauert"
+			},
+			{
+				"id": "c",
+				"text": "Nein, er muss sich mit den Emissionen des Baumes abfinden."
 			}
 		],
 		"correctAnswer": "c"
 	},
 	{
 		"id": 6,
-		"category": "Cucumbers",
-		"question": "What did Arnold say?",
+		"category": "?",
+		"question": "Der 'Kobra-Effekt' beschreibt das Phänomen, dass Maßnahmen, die zur Lösung eines Problems getroffen werden, ...?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Hello"
+				"text": "das Problem erst in weit entfernter Zukunft lösen"
 			},
 			{
 				"id": "b",
-				"text": "I'll be black"
+				"text": "die Situation noch weiter verschlimmern"
 			},
 			{
 				"id": "c",
-				"text": "get to the choppa"
+				"text": "in Wahrheit ein ganz anderes Problem lösen"
 			}
 		],
-		"correctAnswer": "a"
+		"correctAnswer": "b"
 	},
 	{
 		"id": 7,
-		"category": "?",
-		"question": "Who is the coolest stream chat user?",
+		"category": "Motorsport",
+		"question": "Warum fand das erste Formel-1-Rennen am 13.Mai 1950 im englischen Silverstone an einem Samstag statt?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Parralaxdicky"
+				"text": "Fahrzeuge durfen damals nur an Werktagen betankt werden."
 			},
 			{
 				"id": "b",
-				"text": "Sylens__"
+				"text": "Die Sonntagsruhe galt unter König George VI. als heilig."
 			},
 			{
 				"id": "c",
-				"text": "kraft_durch_bier"
+				"text": "Der Muttertag sollte nicht gestört werden."
 			}
 		],
 		"correctAnswer": "b"
 	},
 	{
 		"id": 8,
-		"category": "Spacing",
-		"question": "Who is the coolest chatter?",
+		"category": "Tierisch tierisch",
+		"question": "Forscher der Universität Camebridge haben herausgefunden, dass Schafe...?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Games_Maik"
+				"text": "Menschen auf Fotos wiedererkennen"
 			},
 			{
 				"id": "b",
-				"text": "Dummbatz"
+				"text": "festere Zähne bekommen, wenn sie täglich Äpfel essen"
 			},
 			{
 				"id": "c",
-				"text": "XRC_"
+				"text": "je nach Geschlecht Rot oder Blau als Lieblingsfarbe haben"
 			}
 		],
 		"correctAnswer": "a"
 	},
 	{
 		"id": 9,
-		"category": "Bud Spencer",
-		"question": "How much does it cost?",
+		"category": "München",
+		"question": "Die Heilig-Kreuz-Kirche in München bekam 2019 neue Fenster aus ...?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "15$"
+				"text": "alten Sonnenbrillengläsern"
 			},
 			{
 				"id": "b",
-				"text": "200$"
+				"text": "Röntgenbildern von Lungen"
 			},
 			{
 				"id": "c",
-				"text": "26.5$"
-			}
-		],
-		"correctAnswer": "c"
-	},
-	{
-		"id": 10,
-		"category": "Bud Light",
-		"question": "What did Arnold say?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Hello"
-			},
-			{
-				"id": "b",
-				"text": "I'll be black"
-			},
-			{
-				"id": "c",
-				"text": "get to the choppa"
-			}
-		],
-		"correctAnswer": "a"
-	},
-	{
-		"id": 11,
-		"category": "Butt Pics",
-		"question": "Who is the coolest stream chat user?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Parralaxdicky"
-			},
-			{
-				"id": "b",
-				"text": "Sylens__"
-			},
-			{
-				"id": "c",
-				"text": "kraft_durch_bier"
+				"text": "in einem Jahr in der Nähe der Kirche gesammeltem Plastikmüll"
 			}
 		],
 		"correctAnswer": "b"
-	},
-	{
-		"id": 12,
-		"category": "Nice",
-		"question": "Who is the coolest chatter?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Games_Maik"
-			},
-			{
-				"id": "b",
-				"text": "Dummbatz"
-			},
-			{
-				"id": "c",
-				"text": "XRC_"
-			}
-		],
-		"correctAnswer": "a"
 	}
 ]
