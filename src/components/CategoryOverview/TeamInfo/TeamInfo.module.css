@@ -1,0 +1,26 @@
+.TeamInfo {
+	color: white;
+}
+
+.Stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.CurrentTeam {
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+
+.TeamStats {
+	display: flex;
+	flex-direction: column;
+	font-size: 2em;
+	text-align: center;
+}
+
+.TeamImage {
+	height: 100px;
+	width: 100px;
+}
