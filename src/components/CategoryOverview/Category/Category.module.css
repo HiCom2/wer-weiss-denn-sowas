@@ -35,6 +35,20 @@
 	box-shadow: 0 0 5px #ffa600;
 }
 
+.tileAnsweredCorrectly {
+	background-image: radial-gradient(#0015d6, #c2010181);
+	border: 3px solid #ffee00;
+	box-shadow: 0 0 10px #ffee00;
+}
+
+.tileAnsweredWrong {
+	border: 3px solid #c7c7c7;
+	box-shadow: 0 0 10px #c4c4c4;
+	color: #f3f3f363;
+	background-image: url(../../../assets/transparency.png),
+		linear-gradient(200deg, #50505088, #9c9c9c88, #50505088);
+}
+
 .categorytext {
 	font-size: 1.6em;
 	font-weight: 500;
@@ -49,4 +63,11 @@
 .questionmark {
 	font-size: 4em;
 	text-shadow: 0 0 3px white;
+}
+
+.teamImage {
+	position: fixed;
+
+	height: 150px;
+	width: 150px;
 }

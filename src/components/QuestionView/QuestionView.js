@@ -7,6 +7,7 @@ import ActionButtons from './ActionButtons/ActionButtons';
 const QuestionView = props => {
 	function AnswerQuestion(questionId, answer) {
 		props.SetAnsweredQuestion(questionId, answer);
+		props.CloseQuestion();
 	}
 	return (
 		<div className={classes.Wrapper}>

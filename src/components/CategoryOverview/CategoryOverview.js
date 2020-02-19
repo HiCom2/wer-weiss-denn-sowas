@@ -14,6 +14,12 @@ const CategoryOverview = props => {
 		answeredQuestions.push({ currentTeam, questionId, isCorrect });
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
+		// TODO Play video from here
+	}
+
+	function ShowQuestion(data) {
+		if (answeredQuestions.filter(x => x.questionId === data.id) <= 0)
+			setShownQuestionData(data);
 	}
 
 	var shownQuestion = shownQuestionData ? (
@@ -40,8 +46,11 @@ const CategoryOverview = props => {
 							key={item.id}
 							data={item}
 							showQuestion={data => {
-								setShownQuestionData(data);
+								ShowQuestion(data);
 							}}
+							answerInfo={answeredQuestions.filter(
+								x => x.questionId === item.id
+							)}
 						/>
 					);
 				})}
