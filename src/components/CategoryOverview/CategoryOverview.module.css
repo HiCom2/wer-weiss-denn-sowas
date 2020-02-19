@@ -15,3 +15,12 @@
 .controlButtons {
 	margin: 10px;
 }
+
+.reactPlayer {
+	position: absolute;
+	z-index: 10;
+	width: 99%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}

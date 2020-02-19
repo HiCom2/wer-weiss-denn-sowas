@@ -1,180 +1,180 @@
 [
 	{
 		"id": 1,
-		"category": "Erfindungen",
-		"question": "Im Jahr 1930 erfand Walter Nilsson ...?",
+		"category": "Straßenverkehr",
+		"question": "Welches Vergehen steht nicht im Bußgeldkatalog?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "das Ballonfahren mit Kühltechnik"
+				"text": "unnützes Hin- und Herfahren innerorts"
 			},
 			{
 				"id": "b",
-				"text": "das Schwimmen ohne Nasswerden"
+				"text": "unnötiges Betätigen der Scheibenwaschanlage auf der Autobahn"
 			},
 			{
 				"id": "c",
-				"text": "das Spazierengehen per Pedalkraft"
+				"text": "durch mangelnde Umsicht andere Verkehrsteilnehmer beschmutzen"
+			}
+		],
+		"correctAnswer": "b"
+	},
+	{
+		"id": 2,
+		"category": "Essen & Trinken",
+		"question": "Warum bleibt Brot mit einem höheren Roggenanteil in der Regel länger frisch als Weißbrot?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Es enthält weniger Kohlendioxid."
+			},
+			{
+				"id": "b",
+				"text": "Roggengluten wirkt als natürliches Konservierungsmittel."
+			},
+			{
+				"id": "c",
+				"text": "Es kann Feuchtigkeit länger halten."
 			}
 		],
 		"correctAnswer": "c"
 	},
 	{
-		"id": 2,
-		"category": "Essen & Trinken",
-		"question": "Wann ist der Begriff Federweißer für den Verkauf nicht mehr zulässig?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "bei Unterbrechung der Gärung durch Konservierungsmaßnahmen"
-			},
-			{
-				"id": "b",
-				"text": "bei einer Gärdauer von weniger als drei Monaten"
-			},
-			{
-				"id": "c",
-				"text": "bei einem Alkoholgehalt von mehr als 4 Vol.-%"
-			}
-		],
-		"correctAnswer": "a"
-	},
-	{
 		"id": 3,
-		"category": "Clever!",
-		"question": "Was ist beim reinigen von Sammlermünzen zu beachten?",
+		"category": "Total genial!",
+		"question": "Wer seinen Gartenteich auf natürlichem Wege von Algen befreien möchte, sollte ...",
 		"answers": [
 			{
 				"id": "a",
-				"text": "verschiedene Metalle nicht zusammen ins Reinigungsbad geben"
+				"text": "Gurkenschalen auf der Wasseroberfläche verteilen"
 			},
 			{
 				"id": "b",
-				"text": "Silber sollte immer gereinigt werden, Kupfer hingegen nie."
+				"text": "einen Eichenast ins Wasser legen"
 			},
 			{
 				"id": "c",
-				"text": "Goldmünzen sieben Minuten bei 180 Grad im Backofen reinigen"
+				"text": "wöchentlich einen Esslöffel Backpulver ins Wasser schütten"
 			}
 		],
-		"correctAnswer": "a"
+		"correctAnswer": "b"
 	},
 	{
 		"id": 4,
-		"category": "Andere Länder andere Sitten",
-		"question": "Wozu dient die 'Fleisch-Ampel', die in vielen traditionellen brasilianischen Restaurants ausliegt?",
+		"category": "Clever!",
+		"question": "Mit welchen Hilfsmitteln können sich Alleinreisende im Urlaub am Rücken selbst mit Sonnencreme eincremen?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Die Lokale geben so Auskunft über ihr vegetarisches Angebot."
+				"text": "Toilettenpapier und Nagelfeile"
 			},
 			{
 				"id": "b",
-				"text": "Köche legen offen, welchen Grilltyp sie nutzen."
+				"text": "Zahnbürste und Haargummi"
 			},
 			{
 				"id": "c",
-				"text": "Gäste können Kellnern signalisieren, ob sie Nachschlag wollen."
+				"text": "Plastiktüte und Schere"
 			}
 		],
 		"correctAnswer": "c"
 	},
 	{
 		"id": 5,
-		"category": "Einspruch",
-		"question": "Kann ein Pollenallergiker gerichtlich verlangen, dass der Nachbar einen Baum fällen muss?",
+		"category": "Damals",
+		"question": "Welcher Haushaltsgegenstand galt im 19. Jahrhundert in Europa als Zeichen des Wohlstandes?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "ja, wenn er vier weitere Betroffene in der Umgebung findet"
+				"text": "mechanische Waschanlage für Hunde"
 			},
 			{
 				"id": "b",
-				"text": "ja, wenn die Allergie über sieben Monate andauert"
+				"text": "Holzgreifhand zum Umblättern schwerer Bücher"
 			},
 			{
 				"id": "c",
-				"text": "Nein, er muss sich mit den Emissionen des Baumes abfinden."
+				"text": "Zuckerkasten zum Brechen großer Zuckerstücke"
 			}
 		],
 		"correctAnswer": "c"
 	},
 	{
 		"id": 6,
-		"category": "?",
-		"question": "Der 'Kobra-Effekt' beschreibt das Phänomen, dass Maßnahmen, die zur Lösung eines Problems getroffen werden, ...?",
+		"category": "Im Büro",
+		"question": "Was ergab eine Langzeitstudie, als Wissenschaftler den Büroalltag genauer unter die Lupe nahmen?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "das Problem erst in weit entfernter Zukunft lösen"
+				"text": "80 Prozent aller Teelöffel verschwinden innerhalb von fünf Monaten."
 			},
 			{
 				"id": "b",
-				"text": "die Situation noch weiter verschlimmern"
+				"text": "40 Prozent aller Wandkalender werden erst im März aufgehängt."
 			},
 			{
 				"id": "c",
-				"text": "in Wahrheit ein ganz anderes Problem lösen"
-			}
-		],
-		"correctAnswer": "b"
-	},
-	{
-		"id": 7,
-		"category": "Motorsport",
-		"question": "Warum fand das erste Formel-1-Rennen am 13.Mai 1950 im englischen Silverstone an einem Samstag statt?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Fahrzeuge durfen damals nur an Werktagen betankt werden."
-			},
-			{
-				"id": "b",
-				"text": "Die Sonntagsruhe galt unter König George VI. als heilig."
-			},
-			{
-				"id": "c",
-				"text": "Der Muttertag sollte nicht gestört werden."
-			}
-		],
-		"correctAnswer": "b"
-	},
-	{
-		"id": 8,
-		"category": "Tierisch tierisch",
-		"question": "Forscher der Universität Camebridge haben herausgefunden, dass Schafe...?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Menschen auf Fotos wiedererkennen"
-			},
-			{
-				"id": "b",
-				"text": "festere Zähne bekommen, wenn sie täglich Äpfel essen"
-			},
-			{
-				"id": "c",
-				"text": "je nach Geschlecht Rot oder Blau als Lieblingsfarbe haben"
+				"text": "30 Prozent aller Ausdrucke werden niemals abgeholt."
 			}
 		],
 		"correctAnswer": "a"
 	},
 	{
-		"id": 9,
-		"category": "München",
-		"question": "Die Heilig-Kreuz-Kirche in München bekam 2019 neue Fenster aus ...?",
+		"id": 7,
+		"category": "Handwerk",
+		"question": "Einen Schwalbenschwanz nutzen ...?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "alten Sonnenbrillengläsern"
+				"text": "Schreiner, um Holzstücke ohne Nägel oder Schrauben zu verbinden"
 			},
 			{
 				"id": "b",
-				"text": "Röntgenbildern von Lungen"
+				"text": "Elektriker, um freiliegende Kabel abzuisolieren"
 			},
 			{
 				"id": "c",
-				"text": "in einem Jahr in der Nähe der Kirche gesammeltem Plastikmüll"
+				"text": "Maler, um hohe Häuserwände zu streichen"
+			}
+		],
+		"correctAnswer": "a"
+	},
+	{
+		"id": 8,
+		"category": "?",
+		"question": "Die in Ostasien heimische Tigernatter ...?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "hat Augenbrauen wie ein Raubtier"
+			},
+			{
+				"id": "b",
+				"text": "kann sowohl Eier legen als auch lebend gebären"
+			},
+			{
+				"id": "c",
+				"text": "nutzt zwei verschiedene Giftarten"
+			}
+		],
+		"correctAnswer": "c"
+	},
+	{
+		"id": 9,
+		"category": "Geld",
+		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "erfährt, wie viele Menschen den Schein bereits in der Hand hielten"
+			},
+			{
+				"id": "b",
+				"text": "kann eine Sojus-Rakete samt Weltraumbahnhof erscheinen lassen"
+			},
+			{
+				"id": "c",
+				"text": "erfährt die exakte Zahl der sich darauf befindlichen Bakterien"
 			}
 		],
 		"correctAnswer": "b"

@@ -3,11 +3,13 @@ import classes from './CategoryOverview.module.css';
 import Category from './Category/Category';
 import QuestionView from '../QuestionView/QuestionView';
 import TeamInfo from './TeamInfo/TeamInfo';
+import ReactPlayer from 'react-player';
 
 const CategoryOverview = props => {
 	var [shownQuestionData, setShownQuestionData] = useState('');
 	var [currentTeam, setCurrentTeam] = useState('team1');
 	var [answeredQuestions] = useState([]);
+	var [player, setPlayer] = useState('');
 
 	function SetAnsweredQuestion(questionId, answer) {
 		var isCorrect = shownQuestionData.correctAnswer === answer;
@@ -15,6 +17,17 @@ const CategoryOverview = props => {
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
 		// TODO Play video from here
+		var videoUrl = 'videos/1.' + questionId + '.mp4';
+		setPlayer(
+			<ReactPlayer
+				className={classes.reactPlayer}
+				url={videoUrl}
+				playing
+				height="600"
+				width="800"
+				onEnded={() => setPlayer('')}
+			/>
+		);
 	}
 
 	function ShowQuestion(data) {
@@ -56,8 +69,9 @@ const CategoryOverview = props => {
 				})}
 			</div>
 			<div className={classes.controlButtons}></div>
+			{player}
 			{teamInfo}
-			{shownQuestion}
+			{shownQuestion}{' '}
 		</>
 	);
 };
