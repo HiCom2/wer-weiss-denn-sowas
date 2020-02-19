@@ -14,9 +14,7 @@ const Category = props => {
 		if (answer.isCorrect)
 			if (answer.currentTeam === 'team1') image = team1Image;
 			else image = team2Image;
-		else {
-			tileClasses.push(classes.tileAnsweredWrong);
-		}
+		else tileClasses.push(classes.tileAnsweredWrong);
 	}
 	const renderedImage =
 		image === '' ? (
