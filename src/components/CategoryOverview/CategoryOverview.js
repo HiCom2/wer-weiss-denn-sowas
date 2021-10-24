@@ -11,23 +11,26 @@ const CategoryOverview = props => {
 	var [answeredQuestions] = useState([]);
 	var [player, setPlayer] = useState('');
 
-	function SetAnsweredQuestion(questionId, answer) {
+	function SetAnsweredQuestion(questionId, answer, videopath) {
 		var isCorrect = shownQuestionData.correctAnswer === answer;
 		answeredQuestions.push({ currentTeam, questionId, isCorrect });
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
 		// TODO Play video from here
-		var videoUrl = 'videos/1.' + questionId + '.mp4';
-		setPlayer(
-			<ReactPlayer
-				className={classes.reactPlayer}
-				url={videoUrl}
-				playing
-				height="600"
-				width="800"
-				onEnded={() => setPlayer('')}
-			/>
-		);
+		// var videoUrl = 'videos/1.' + questionId + '.mp4';
+        // var videoUrl = 'videos/1.1Trim.mp4';
+        // var videoUrl = videopath;
+        if (videopath !== "")
+            setPlayer(
+                <ReactPlayer
+                    className={classes.reactPlayer}
+                    url={videopath}
+                    playing
+                    height="600"
+                    width="800"
+                    onEnded={() => setPlayer('')}
+                />
+            );
 	}
 
 	function ShowQuestion(data) {
@@ -39,8 +42,8 @@ const CategoryOverview = props => {
 		<QuestionView
 			data={shownQuestionData}
 			CloseQuestion={() => setShownQuestionData(null)}
-			SetAnsweredQuestion={(questionId, answer) =>
-				SetAnsweredQuestion(questionId, answer)
+			SetAnsweredQuestion={(questionId, answer, videopath) =>
+				SetAnsweredQuestion(questionId, answer, videopath)
 			}
 		/>
 	) : (

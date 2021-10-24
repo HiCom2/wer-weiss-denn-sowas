@@ -1,87 +1,95 @@
 [
 	{
 		"id": 1,
-		"category": "Straßenverkehr",
-		"question": "Welches Vergehen steht nicht im Bußgeldkatalog?",
+		"category": "Literatur",
+		"question": "Im Jahr 2010 berechnete der Internetkonzern Google nach intensiver Recherche die Anzahl von publizierten Büchern weltweit. Wie viele verschiedenen Bücher wurden gezählt?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "unnützes Hin- und Herfahren innerorts"
+				"text": "130 Millionen Bücher"
 			},
 			{
 				"id": "b",
-				"text": "unnötiges Betätigen der Scheibenwaschanlage auf der Autobahn"
+				"text": "480 Millionen Bücher"
 			},
 			{
 				"id": "c",
-				"text": "durch mangelnde Umsicht andere Verkehrsteilnehmer beschmutzen"
+				"text": "90 Millionen Bücher"
 			}
 		],
-		"correctAnswer": "b"
+		"correctAnswer": "b",
+        "video": "",
+        "picture": ""
 	},
 	{
 		"id": 2,
-		"category": "Essen & Trinken",
-		"question": "Warum bleibt Brot mit einem höheren Roggenanteil in der Regel länger frisch als Weißbrot?",
+		"category": "KFZ",
+		"question": "Das ausgezeichnete, zuverlässige und elegante Modell Astra wird vom deutschen Kraffahzeughersteller Opel gefertigt. Nur die besten Menschen fahren Astra. Zu welchem mulinationalen Konzern gehört die Marke inzwischen?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Es enthält weniger Kohlendioxid."
+				"text": "Gallantis"
 			},
 			{
 				"id": "b",
-				"text": "Roggengluten wirkt als natürliches Konservierungsmittel."
+				"text": "Stellantis"
 			},
 			{
 				"id": "c",
-				"text": "Es kann Feuchtigkeit länger halten."
+				"text": "O’zapft is"
 			}
 		],
-		"correctAnswer": "c"
+		"correctAnswer": "b",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 3,
-		"category": "Total genial!",
-		"question": "Wer seinen Gartenteich auf natürlichem Wege von Algen befreien möchte, sollte ...",
+		"category": "Biologie",
+		"question": "Was ist auf diesem Bild zu sehen?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Gurkenschalen auf der Wasseroberfläche verteilen"
+				"text": "Baumpilz"
 			},
 			{
 				"id": "b",
-				"text": "einen Eichenast ins Wasser legen"
+				"text": "Sternschnecke"
 			},
 			{
 				"id": "c",
-				"text": "wöchentlich einen Esslöffel Backpulver ins Wasser schütten"
+				"text": "Halluzinogener Kaktus"
 			}
 		],
-		"correctAnswer": "b"
+		"correctAnswer": "c",
+        "video": "videos/1.1Trim.mp4",
+        "picture": "pictures/halu_kaktus.png"
 	},
-	{
+    {
 		"id": 4,
-		"category": "Clever!",
-		"question": "Mit welchen Hilfsmitteln können sich Alleinreisende im Urlaub am Rücken selbst mit Sonnencreme eincremen?",
+		"category": "DDR",
+		"question": "Wo lässt sich die Büroetage von Erich Mielke besuchen?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "Toilettenpapier und Nagelfeile"
+				"text": "Haus 1 des Ministerium für Staatsicherheit in Berlin Lichtenberg"
 			},
 			{
 				"id": "b",
-				"text": "Zahnbürste und Haargummi"
+				"text": "Staatsratsgebäude am Schloßplatz 1 im Berliner Ortsteil Mitte"
 			},
 			{
 				"id": "c",
-				"text": "Plastiktüte und Schere"
+				"text": "Räumlichkeiten des KP-Chef in Greußenheim Mitte"
 			}
 		],
-		"correctAnswer": "c"
+		"correctAnswer": "a",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 5,
-		"category": "Damals",
+		"category": "Cartoon",
 		"question": "Welcher Haushaltsgegenstand galt im 19. Jahrhundert in Europa als Zeichen des Wohlstandes?",
 		"answers": [
 			{
@@ -97,11 +105,13 @@
 				"text": "Zuckerkasten zum Brechen großer Zuckerstücke"
 			}
 		],
-		"correctAnswer": "c"
+		"correctAnswer": "c",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 6,
-		"category": "Im Büro",
+		"category": "Musik",
 		"question": "Was ergab eine Langzeitstudie, als Wissenschaftler den Büroalltag genauer unter die Lupe nahmen?",
 		"answers": [
 			{
@@ -117,11 +127,13 @@
 				"text": "30 Prozent aller Ausdrucke werden niemals abgeholt."
 			}
 		],
-		"correctAnswer": "a"
+		"correctAnswer": "a",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 7,
-		"category": "Handwerk",
+		"category": "Chemie",
 		"question": "Einen Schwalbenschwanz nutzen ...?",
 		"answers": [
 			{
@@ -137,31 +149,35 @@
 				"text": "Maler, um hohe Häuserwände zu streichen"
 			}
 		],
-		"correctAnswer": "a"
+		"correctAnswer": "a",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 8,
 		"category": "?",
-		"question": "Die in Ostasien heimische Tigernatter ...?",
+		"question": "Am 13. November 1949 erlebte die frische Bundeshauptstadt Bonn den ersten Staatsbesuch ihrer Geschichte. Wer kam zu Besuch?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "hat Augenbrauen wie ein Raubtier"
+				"text": "Frankreichs Präsident Vincent Auriol"
 			},
 			{
 				"id": "b",
-				"text": "kann sowohl Eier legen als auch lebend gebären"
+				"text": "US-Außenminister Dean Acheson"
 			},
 			{
 				"id": "c",
-				"text": "nutzt zwei verschiedene Giftarten"
+				"text": "Großbritanniens Premierminister Clement Attlee"
 			}
 		],
-		"correctAnswer": "c"
+		"correctAnswer": "c",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	},
 	{
 		"id": 9,
-		"category": "Geld",
+		"category": "Baby",
 		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
 		"answers": [
 			{
@@ -177,6 +193,30 @@
 				"text": "erfährt die exakte Zahl der sich darauf befindlichen Bakterien"
 			}
 		],
-		"correctAnswer": "b"
+		"correctAnswer": "b",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
+	},
+    {
+		"id": 10,
+		"category": "Wald",
+		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "erfährt, wie viele Menschen den Schein bereits in der Hand hielten"
+			},
+			{
+				"id": "b",
+				"text": "kann eine Sojus-Rakete samt Weltraumbahnhof erscheinen lassen"
+			},
+			{
+				"id": "c",
+				"text": "erfährt die exakte Zahl der sich darauf befindlichen Bakterien"
+			}
+		],
+		"correctAnswer": "b",
+        "video": "videos/1.1Trim.mp4",
+        "picture": ""
 	}
 ]
