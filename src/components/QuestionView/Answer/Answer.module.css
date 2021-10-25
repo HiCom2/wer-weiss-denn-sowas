@@ -53,3 +53,13 @@
 	color: #ad7f00;
 	cursor: pointer;
 }
+
+.AnswerCorrect {
+    background-image: linear-gradient(
+		0deg,
+		#10c000e0,
+		#b300004f,
+		#a5000086,
+		#a000004f
+	);
+}

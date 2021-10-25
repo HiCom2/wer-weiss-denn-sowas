@@ -49,6 +49,10 @@
 		linear-gradient(200deg, #50505088, #9c9c9c88, #50505088);
 }
 
+.tileten{
+    margin: 26px;
+}
+
 .categorytext {
 	font-size: 1.6em;
 	font-weight: 500;

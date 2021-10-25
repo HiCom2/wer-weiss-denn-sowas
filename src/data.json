@@ -89,23 +89,23 @@
 	},
 	{
 		"id": 5,
-		"category": "Cartoon",
-		"question": "Welcher Haushaltsgegenstand galt im 19. Jahrhundert in Europa als Zeichen des Wohlstandes?",
+		"category": "Clever!",
+		"question": "In welcher Vereinigung arbeiten Clever & Smart in ihren seit 1958 erschienenen Comic-Serien?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "mechanische Waschanlage für Hunde"
+				"text": " T.I.A. (Trans-Internationaler-Agentenring)"
 			},
 			{
 				"id": "b",
-				"text": "Holzgreifhand zum Umblättern schwerer Bücher"
+				"text": "O.M.I (Organisation Machthungriger Intelligenzbestien)"
 			},
 			{
 				"id": "c",
-				"text": "Zuckerkasten zum Brechen großer Zuckerstücke"
+				"text": "O.P.A. (Organisation Pazifistischer Agenten)"
 			}
 		],
-		"correctAnswer": "c",
+		"correctAnswer": "a",
         "video": "videos/1.1Trim.mp4",
         "picture": ""
 	},
@@ -133,7 +133,7 @@
 	},
 	{
 		"id": 7,
-		"category": "Chemie",
+		"category": "Im Labor",
 		"question": "Einen Schwalbenschwanz nutzen ...?",
 		"answers": [
 			{
@@ -177,20 +177,20 @@
 	},
 	{
 		"id": 9,
-		"category": "Baby",
-		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
+		"category": "Wie bitte?",
+		"question": "Was erreicht die Lautstärke von 120 Dezibel?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "erfährt, wie viele Menschen den Schein bereits in der Hand hielten"
+				"text": "Airbag-Entfaltung"
 			},
 			{
 				"id": "b",
-				"text": "kann eine Sojus-Rakete samt Weltraumbahnhof erscheinen lassen"
+				"text": "Babyschreien"
 			},
 			{
 				"id": "c",
-				"text": "erfährt die exakte Zahl der sich darauf befindlichen Bakterien"
+				"text": "Kreissäge"
 			}
 		],
 		"correctAnswer": "b",

@@ -5,10 +5,16 @@ import Answer from './Answer/Answer';
 import ActionButtons from './ActionButtons/ActionButtons';
 
 const QuestionView = props => {
-    var [answeredQuestions] = useState([]);
+    var [SelectedAnswersId, SetAnswerId] = useState("");
 	function AnswerQuestion(questionId, answer, videopath) {
-		props.SetAnsweredQuestion(questionId, answer, videopath);
-		// props.CloseQuestion();  //will close question after playing video
+        SetAnswerId(questionId);
+        if (SelectedAnswersId !==""){
+            // props.SetAnsweredQuestion(questionId, answer, videopath);
+            // props.CloseQuestion();  //will close question after playing video
+        }
+        
+        props.SetAnsweredQuestion(questionId, answer, videopath);
+        props.CloseQuestion();  //will close question after playing video
 	};
 	return (
 		<div className={classes.Wrapper}>
@@ -33,7 +39,7 @@ const QuestionView = props => {
 							key={item.id}
 							data={item}
 							AnswerQuestion={answer => AnswerQuestion(props.data.id, answer, props.data.video)}
-                            answerInfo={answeredQuestions.filter(x => x.questionId === item.id)}
+                            SelectedAnswersId
 						/>
 					);
 				})}

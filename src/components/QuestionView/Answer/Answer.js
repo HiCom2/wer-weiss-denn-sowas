@@ -3,9 +3,8 @@ import classes from './Answer.module.css';
 
 const Answer = props => {
     var answerClasses = [classes.Answer];
-    if (props.answerInfo.length >= 1){
-		var answer = props.answerInfo[0];
-		if (answer.isCorrect) answerClasses.push(classes.tileAnsweredWrong);
+    if (props.SelectedAnswersId === props.data.id){
+		answerClasses.push(classes.AnswerCorrect);
 	}
 	return (
 		<div className={answerClasses.join(' ')}>

@@ -24,15 +24,17 @@ const Category = props => {
 		);
 	if (renderedImage !== '') tileClasses.push(classes.tileAnsweredCorrectly);
 
+    if (data.id === 10) tileClasses.push(classes.tileten);
+
 	return (
-		<div
-			className={tileClasses.join(' ')}
-			onClick={() => props.showQuestion(data)}
-		>
-			{renderedImage}
+        <div
+            className={tileClasses.join(' ')}
+            onClick={() => props.showQuestion(data)}
+        >
+            {renderedImage}
 			<div className={textClasses.join(' ')}>{data.category}</div>
-		</div>
-	);
+        </div>
+    );
 };
 
 export default Category;
