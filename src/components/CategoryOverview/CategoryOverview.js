@@ -12,8 +12,8 @@ const CategoryOverview = props => {
 	var [player, setPlayer] = useState('');
 
 	function SetAnsweredQuestion(questionId, answer, videopath) {
-		var isCorrect = shownQuestionData.correctAnswer === answer;
-		answeredQuestions.push({ currentTeam, questionId, isCorrect });
+        var isCorrect = shownQuestionData.correctAnswer === answer;
+        answeredQuestions.push({ currentTeam, questionId, isCorrect });
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
 		// TODO Play video from here
@@ -28,6 +28,7 @@ const CategoryOverview = props => {
                     playing
                     height="600"
                     width="800"
+                    volume={0.5}
                     onEnded={() => setPlayer('')}
                 />
             );
@@ -50,7 +51,7 @@ const CategoryOverview = props => {
 		''
 	);
 	var teamInfo = (
-		<TeamInfo currentTeam={currentTeam} answeredQuestions={answeredQuestions} />
+		<TeamInfo currentTeam={currentTeam} answeredQuestions={answeredQuestions}/>
 	);
 
 	return (

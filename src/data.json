@@ -40,7 +40,7 @@
 			}
 		],
 		"correctAnswer": "b",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -62,7 +62,7 @@
 			}
 		],
 		"correctAnswer": "c",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": "pictures/halu_kaktus.png"
 	},
     {
@@ -84,7 +84,7 @@
 			}
 		],
 		"correctAnswer": "a",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -106,7 +106,7 @@
 			}
 		],
 		"correctAnswer": "a",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -128,7 +128,7 @@
 			}
 		],
 		"correctAnswer": "a",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -150,7 +150,7 @@
 			}
 		],
 		"correctAnswer": "a",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -172,7 +172,7 @@
 			}
 		],
 		"correctAnswer": "c",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
 	{
@@ -194,12 +194,12 @@
 			}
 		],
 		"correctAnswer": "b",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	},
     {
 		"id": 10,
-		"category": "Wald",
+		"category": "Finale",
 		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
 		"answers": [
 			{
@@ -216,7 +216,7 @@
 			}
 		],
 		"correctAnswer": "b",
-        "video": "videos/1.1Trim.mp4",
+        "video": "",
         "picture": ""
 	}
 ]

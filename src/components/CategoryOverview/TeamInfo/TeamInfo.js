@@ -17,9 +17,9 @@ const TeamInfo = props => {
 	else team2Img = <div className={classes.CurrentTeam}> {team2Img} </div>;
 
 	var scoreTeam1 =
-		answers.filter(x => x.currentTeam === 'team1' && x.isCorrect).length * 500;
+		answers.filter(x => x.currentTeam === 'team1' && x.isCorrect && x.questionId !== 10).length * 500;
 	var scoreTeam2 =
-		answers.filter(x => x.currentTeam === 'team2' && x.isCorrect).length * 500;
+		answers.filter(x => x.currentTeam === 'team2' && x.isCorrect && x.questionId !== 10).length * 500;
 
 	return (
 		<div className={classes.TeamInfo}>
