@@ -199,23 +199,45 @@
 	},
     {
 		"id": 10,
-		"category": "Finale",
-		"question": "Wer einen neuen russischen 2.000-Rubel-Schein besitzt und sich eine dazugehörige App herunterlädt, …?",
+		"category": "Finale Team 1",
+		"question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
 		"answers": [
 			{
 				"id": "a",
-				"text": "erfährt, wie viele Menschen den Schein bereits in der Hand hielten"
+				"text": "Japan"
 			},
 			{
 				"id": "b",
-				"text": "kann eine Sojus-Rakete samt Weltraumbahnhof erscheinen lassen"
+				"text": "Brasilien"
 			},
 			{
 				"id": "c",
-				"text": "erfährt die exakte Zahl der sich darauf befindlichen Bakterien"
+				"text": "Vietnam"
 			}
 		],
-		"correctAnswer": "b",
+		"correctAnswer": "a",
+        "video": "",
+        "picture": ""
+	},
+    {
+		"id": 11,
+		"category": "Finale Team 2",
+		"question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
+		"answers": [
+			{
+				"id": "a",
+				"text": "Japan"
+			},
+			{
+				"id": "b",
+				"text": "Brasilien"
+			},
+			{
+				"id": "c",
+				"text": "Vietnam"
+			}
+		],
+		"correctAnswer": "a",
         "video": "",
         "picture": ""
 	}

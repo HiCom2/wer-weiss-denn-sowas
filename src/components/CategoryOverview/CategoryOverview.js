@@ -7,13 +7,25 @@ import ReactPlayer from 'react-player';
 
 const CategoryOverview = props => {
 	var [shownQuestionData, setShownQuestionData] = useState('');
-	var [currentTeam, setCurrentTeam] = useState('team1');
+	var [currentTeam, setCurrentTeam] = useState('team2');
 	var [answeredQuestions] = useState([]);
 	var [player, setPlayer] = useState('');
+    var [finalAnswer] = useState([]);
 
 	function SetAnsweredQuestion(questionId, answer, videopath) {
         var isCorrect = shownQuestionData.correctAnswer === answer;
-        answeredQuestions.push({ currentTeam, questionId, isCorrect });
+        if (questionId === 10){
+            finalAnswer.push({ currentTeam, questionId, isCorrect })
+            // console.log(finalAnswer)
+        }
+        else if (questionId === 11){
+            // console.log(finalAnswer)
+            answeredQuestions.push(finalAnswer[0])
+            answeredQuestions.push({ currentTeam, questionId, isCorrect })
+        }
+        else answeredQuestions.push({ currentTeam, questionId, isCorrect })
+
+        // console.log(answeredQuestions)
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
 		// TODO Play video from here

@@ -11,10 +11,11 @@ const Category = props => {
 	var image = '';
 	if (props.answerInfo.length >= 1) {
 		var answer = props.answerInfo[0];
-		if (answer.isCorrect)
-			if (answer.currentTeam === 'team1') image = team1Image;
-			else image = team2Image;
-		else tileClasses.push(classes.tileAnsweredWrong);
+        // if (props.data.id !== 10)
+            if (answer.isCorrect)
+                if (answer.currentTeam === 'team1') image = team1Image;
+                else image = team2Image;
+            else tileClasses.push(classes.tileAnsweredWrong);
 	}
 	const renderedImage =
 		image === '' ? (
@@ -24,13 +25,13 @@ const Category = props => {
 		);
 	if (renderedImage !== '') tileClasses.push(classes.tileAnsweredCorrectly);
 
-    if (data.id === 10) tileClasses.push(classes.tileten);
+    if (data.id === 10 || data.id === 11) tileClasses.push(classes.tileten);
 
 	return (
         <div
             className={tileClasses.join(' ')}
             onClick={() => props.showQuestion(data)}
-        >
+        >   
             {renderedImage}
 			<div className={textClasses.join(' ')}>{data.category}</div>
         </div>
