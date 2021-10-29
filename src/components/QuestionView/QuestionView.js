@@ -28,7 +28,7 @@ const QuestionView = props => {
                         default:      return  <img 
                             src={props.data.picture} 
                             alt="picture_for_question" 
-                            style={{ height: "150px", paddingRight: "0px"}} 
+                            style={{ height: "300px", paddingRight: "0px"}} 
                     />      ;
                         }
                     })()}
