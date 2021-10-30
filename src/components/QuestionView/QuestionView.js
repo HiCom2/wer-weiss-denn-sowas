@@ -27,7 +27,8 @@ const QuestionView = props => {
                 <div style={{display: 'flex', justifyContent: 'center'}}> 
                     {(() => { // https://react-cn.github.io/react/tips/if-else-in-JSX.html
                         switch (props.data.picture) {
-                        case "":   return  ;
+                        // case "":   return <h3>No picture</h3>;
+                        case "":   return ;
                         default:      return  <img 
                             src={props.data.picture} 
                             alt="picture_for_question" 
@@ -41,6 +42,7 @@ const QuestionView = props => {
                 <div style={{display: 'flex', justifyContent: 'center'}}> 
                     {(() => { // https://react-cn.github.io/react/tips/if-else-in-JSX.html
                         switch (props.data.audio) {
+                        // case "":   return  <h3>No audio</h3>;
                         case "":   return  ;
                         default:   return  <ReactPlayer
                         url={props.data.audio}

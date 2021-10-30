@@ -18,8 +18,9 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "",
-        "picture": ""
+        "video": "videos/Literatur.mp4",
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 2,
@@ -40,8 +41,9 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "",
-        "picture": ""
+        "video": "videos/KFZ.mp4",
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 3,
@@ -62,8 +64,9 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "",
-        "picture": "pictures/halu_kaktus.png"
+        "video": "videos/Biologie.mp4",
+        "picture": "pictures/halu_kaktus.png",
+        "audio" : ""
     },
     {
         "id": 4,
@@ -107,7 +110,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "",
+        "video": "videos/Clever.mp4",
         "picture": "",
         "audio" : ""
     },
@@ -130,9 +133,9 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "videos/Musikfrage_Aufloesung.mp4",
+        "video": "videos/Musik.mp4",
         "picture": "",
-        "audio" : "audio/Musikfrage.mp3"
+        "audio" : "audio/Musikfrage_trim.mp3"
     },
     {
         "id": 7,
@@ -176,7 +179,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "",
+        "video": "videos/Geschichte.mp4",
         "picture": "",
         "audio" : ""
     },
@@ -199,7 +202,7 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "",
+        "video": "videos/WieBitte.mp4",
         "picture": "",
         "audio" : ""
     },
@@ -245,7 +248,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "",
+        "video": "videos/Wald.mp4",
         "picture": "",
         "audio" : ""
     }
