@@ -2,7 +2,7 @@
     {
         "id": 1,
         "category": "Literatur",
-        "question": "Im Jahr 2010 berechnete der Internetkonzern Google nach intensiver Recherche die Anzahl von publizierten Büchern weltweit. Wie viele verschiedenen Bücher wurden gezählt?",
+        "question": "Im Jahr 2010 berechnete der Internetkonzern Google nach intensiver Recherche die Anzahl von publizierten Büchern weltweit. Wie viele verschiedene Bücher wurden gezählt?",
         "answers": [
             {
                 "id": "a",
@@ -14,10 +14,10 @@
             },
             {
                 "id": "c",
-                "text": "90 Millionen Bücher"
+                "text": "650 Millionen Bücher"
             }
         ],
-        "correctAnswer": "b",
+        "correctAnswer": "a",
         "video": ["videos/Literatur.mp4",0.6],
         "picture": "",
         "audio" : ""
@@ -75,7 +75,7 @@
         "answers": [
             {
                 "id": "a",
-                "text": "Haus 1 des Ministerium für Staatsicherheit in Berlin Lichtenberg"
+                "text": "Haus 1 des Ministeriums für Staatsicherheit in Berlin Lichtenberg"
             },
             {
                 "id": "b",
@@ -94,7 +94,7 @@
     {
         "id": 5,
         "category": "Clever!",
-        "question": "In welcher Vereinigung arbeiten Clever & Smart in ihren seit 1958 erschienenen Comic-Serien?",
+        "question": "In welcher Vereinigung arbeiten Clever & Smart in der seit 1958 erschienenen Comic-Serie?",
         "answers": [
             {
                 "id": "a",
@@ -155,7 +155,7 @@
                 "text": "Glycerin und Kaliumpermanganat"
             }
         ],
-        "correctAnswer": "a",
+        "correctAnswer": "c",
         "video": ["",0.5],
         "picture": "",
         "audio" : ""
@@ -163,7 +163,7 @@
     {
         "id": 8,
         "category": "?",
-        "question": "Am 13. November 1949 erlebte die frische Bundeshauptstadt Bonn den ersten Staatsbesuch ihrer Geschichte. Wer kam zu Besuch?",
+        "question": "Am 13. November 1949 erlebte die frische Bundeshauptstadt Bonn den ersten Staatsbesuch ihrer Geschichte. Wer kam unter anderem zu Besuch?",
         "answers": [
             {
                 "id": "a",
@@ -178,7 +178,7 @@
                 "text": "Großbritanniens Premierminister Clement Attlee"
             }
         ],
-        "correctAnswer": "c",
+        "correctAnswer": "b",
         "video": ["videos/Geschichte.mp4",0.6],
         "picture": "",
         "audio" : ""
