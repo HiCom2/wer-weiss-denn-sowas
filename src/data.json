@@ -18,7 +18,7 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "videos/Literatur.mp4",
+        "video": ["videos/Literatur.mp4",0.6],
         "picture": "",
         "audio" : ""
     },
@@ -41,7 +41,7 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "videos/KFZ.mp4",
+        "video": ["videos/KFZ.mp4",0.25],
         "picture": "",
         "audio" : ""
     },
@@ -64,7 +64,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "videos/Biologie.mp4",
+        "video": ["videos/Biologie.mp4",0.6],
         "picture": "pictures/halu_kaktus.png",
         "audio" : ""
     },
@@ -87,7 +87,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "videos/DDR.mp4",
+        "video": ["videos/DDR.mp4",0.15],
         "picture": "",
         "audio" : ""
     },
@@ -110,7 +110,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "videos/Clever.mp4",
+        "video": ["videos/Clever.mp4",0.3],
         "picture": "",
         "audio" : ""
     },
@@ -133,7 +133,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "videos/Musik.mp4",
+        "video": ["videos/Musik.mp4",0.4],
         "picture": "",
         "audio" : "audio/Musikfrage_trim.mp3"
     },
@@ -156,7 +156,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "",
+        "video": ["",0.5],
         "picture": "",
         "audio" : ""
     },
@@ -179,7 +179,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": "videos/Geschichte.mp4",
+        "video": ["videos/Geschichte.mp4",0.6],
         "picture": "",
         "audio" : ""
     },
@@ -202,7 +202,7 @@
             }
         ],
         "correctAnswer": "b",
-        "video": "videos/WieBitte.mp4",
+        "video": ["videos/WieBitte.mp4",0.4],
         "picture": "",
         "audio" : ""
     },
@@ -225,7 +225,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "",
+        "video": ["",0.5],
         "picture": "",
         "audio" : ""
     },
@@ -248,7 +248,7 @@
             }
         ],
         "correctAnswer": "a",
-        "video": "videos/Wald.mp4",
+        "video": ["videos/Wald.mp4",0.4],
         "picture": "",
         "audio" : ""
     }

@@ -12,7 +12,7 @@ const CategoryOverview = props => {
 	var [player, setPlayer] = useState('');
     var [finalAnswer] = useState([]);
 
-	function SetAnsweredQuestion(questionId, answer, videopath) {
+	function SetAnsweredQuestion(questionId, answer, video) {
         var isCorrect = shownQuestionData.correctAnswer === answer;
         if (questionId === 10){
             finalAnswer.push({ currentTeam, questionId, isCorrect })
@@ -31,16 +31,16 @@ const CategoryOverview = props => {
 		// TODO Play video from here
 		// var videoUrl = 'videos/1.' + questionId + '.mp4';
         // var videoUrl = 'videos/1.1Trim.mp4';
-        // var videoUrl = videopath;
-        if (videopath !== "")
+        // var videoUrl = video;
+        if (video[0] !== "")
             setPlayer(
                 <ReactPlayer
                     className={classes.reactPlayer}
-                    url={videopath}
+                    url={video[0]}
                     playing
                     height="600"
                     width="800"
-                    volume={0.5}
+                    volume={video[1]}
                     onEnded={() => setPlayer('')}
                 />
             );
@@ -55,8 +55,8 @@ const CategoryOverview = props => {
 		<QuestionView
 			data={shownQuestionData}
 			CloseQuestion={() => setShownQuestionData(null)}
-			SetAnsweredQuestion={(questionId, answer, videopath) =>
-				SetAnsweredQuestion(questionId, answer, videopath)
+			SetAnsweredQuestion={(questionId, answer, video) =>
+				SetAnsweredQuestion(questionId, answer, video)
 			}
 		/>
 	) : (
