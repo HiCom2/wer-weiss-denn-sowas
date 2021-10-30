@@ -144,7 +144,7 @@
         "answers": [
             {
                 "id": "a",
-                "text": "Calciumsulfat-Hydrat und Wasser"
+                "text": "Kaliumiodid, Wasserstoffperoxid und Tenside"
             },
             {
                 "id": "b",
@@ -156,7 +156,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": ["https://www.youtube.com/watch?v=IMgrn6M-qjc",0.5,false,true],
+        "video": ["videos/Elefantenzahnpasta.mp4",0.5,false,true],
         "picture": "",
         "audio" : ""
     },
