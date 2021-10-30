@@ -3,6 +3,7 @@ import classes from './QuestionView.module.css';
 import Question from './Question/Question';
 import Answer from './Answer/Answer';
 import ActionButtons from './ActionButtons/ActionButtons';
+import ReactPlayer from "react-player";
 
 const QuestionView = props => {
     var [SelectedAnswersId, SetAnswerId] = useState("");
@@ -19,7 +20,9 @@ const QuestionView = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.QuestionView}>
+
 				<Question text={props.data.question}></Question>
+
                 {/* Add picture if path set https://stackoverflow.com/a/32282992*/}
                 <div style={{display: 'flex', justifyContent: 'center'}}> 
                     {(() => { // https://react-cn.github.io/react/tips/if-else-in-JSX.html
@@ -33,6 +36,23 @@ const QuestionView = props => {
                         }
                     })()}
                 </div>
+
+                {/* https://www.cluemediator.com/audio-player-in-react-with-example */}
+                <div style={{display: 'flex', justifyContent: 'center'}}> 
+                    {(() => { // https://react-cn.github.io/react/tips/if-else-in-JSX.html
+                        switch (props.data.audio) {
+                        case "":   return  ;
+                        default:   return  <ReactPlayer
+                        url={props.data.audio}
+                        width="400px"
+                        height="50px"
+                        playing={false}
+                        controls={true}
+                        />;
+                        }
+                    })()}
+                </div>
+
 				{props.data.answers.map((item, index) => {
 					return (
 						<Answer

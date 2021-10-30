@@ -85,7 +85,8 @@
         ],
         "correctAnswer": "a",
         "video": "videos/DDR.mp4",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 5,
@@ -107,7 +108,8 @@
         ],
         "correctAnswer": "a",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 6,
@@ -129,7 +131,8 @@
         ],
         "correctAnswer": "c",
         "video": "videos/Musikfrage_Aufloesung.mp4",
-        "picture": ""
+        "picture": "",
+        "audio" : "audio/Musikfrage.mp3"
     },
     {
         "id": 7,
@@ -151,7 +154,8 @@
         ],
         "correctAnswer": "a",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 8,
@@ -173,7 +177,8 @@
         ],
         "correctAnswer": "c",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 9,
@@ -195,7 +200,8 @@
         ],
         "correctAnswer": "b",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 10,
@@ -217,7 +223,8 @@
         ],
         "correctAnswer": "a",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     },
     {
         "id": 11,
@@ -239,6 +246,7 @@
         ],
         "correctAnswer": "a",
         "video": "",
-        "picture": ""
+        "picture": "",
+        "audio" : ""
     }
 ]
