@@ -12,7 +12,36 @@ const CategoryOverview = props => {
 	var [player, setPlayer] = useState('');
     var [finalAnswer] = useState([]);
 
+    function PlayAnswerVideo(questionId, answer, video) {
+        if (video[0] !== "")
+            setPlayer(
+                <ReactPlayer
+                    className={classes.reactPlayer}
+                    url={video[0]}
+                    playing
+                    height="600"
+                    width="800"
+                    volume={video[1]}
+                    // onEnded={() => setPlayer('')}
+                    onEnded={() => SetAnsweredQuestion(questionId, answer, video)}
+                />
+            )
+        else SetAnsweredQuestion(questionId, answer, video)
+    }
+
 	function SetAnsweredQuestion(questionId, answer, video) {
+        // if (video[0] !== "")
+        //     setPlayer(
+        //         <ReactPlayer
+        //             className={classes.reactPlayer}
+        //             url={video[0]}
+        //             playing
+        //             height="600"
+        //             width="800"
+        //             volume={video[1]}
+        //             onEnded={() => setPlayer('')}
+        //         />
+        //     );
         var isCorrect = shownQuestionData.correctAnswer === answer;
         if (questionId === 10){
             finalAnswer.push({ currentTeam, questionId, isCorrect })
@@ -32,18 +61,18 @@ const CategoryOverview = props => {
 		// var videoUrl = 'videos/1.' + questionId + '.mp4';
         // var videoUrl = 'videos/1.1Trim.mp4';
         // var videoUrl = video;
-        if (video[0] !== "")
-            setPlayer(
-                <ReactPlayer
-                    className={classes.reactPlayer}
-                    url={video[0]}
-                    playing
-                    height="600"
-                    width="800"
-                    volume={video[1]}
-                    onEnded={() => setPlayer('')}
-                />
-            );
+        // if (video[0] !== "")
+        //     setPlayer(
+        //         <ReactPlayer
+        //             className={classes.reactPlayer}
+        //             url={video[0]}
+        //             playing
+        //             height="600"
+        //             width="800"
+        //             volume={video[1]}
+        //             onEnded={() => setPlayer('')}
+        //         />
+        //     );
 	}
 
 	function ShowQuestion(data) {
@@ -55,8 +84,8 @@ const CategoryOverview = props => {
 		<QuestionView
 			data={shownQuestionData}
 			CloseQuestion={() => setShownQuestionData(null)}
-			SetAnsweredQuestion={(questionId, answer, video) =>
-				SetAnsweredQuestion(questionId, answer, video)
+			PlayAnswerVideo={(questionId, answer, video) =>
+				PlayAnswerVideo(questionId, answer, video)
 			}
 		/>
 	) : (

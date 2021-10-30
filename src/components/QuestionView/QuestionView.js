@@ -6,15 +6,15 @@ import ActionButtons from './ActionButtons/ActionButtons';
 import ReactPlayer from "react-player";
 
 const QuestionView = props => {
-    var [SelectedAnswersId, SetAnswerId] = useState("");
+    // var [SelectedAnswersId, SetAnswerId] = useState("");
 	function AnswerQuestion(questionId, answer, video) {
-        SetAnswerId(questionId);
-        if (SelectedAnswersId !==""){
+        // SetAnswerId(questionId);
+        // if (SelectedAnswersId !==""){
             // props.SetAnsweredQuestion(questionId, answer, video);
             // props.CloseQuestion();  //will close question after playing video
-        }
+        // }
         
-        props.SetAnsweredQuestion(questionId, answer, video);
+        props.PlayAnswerVideo(questionId, answer, video);
         props.CloseQuestion();  //will close question after playing video
 	};
 	return (
