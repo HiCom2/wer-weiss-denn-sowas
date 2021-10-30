@@ -18,30 +18,21 @@ const CategoryOverview = props => {
                 <ReactPlayer
                     className={classes.reactPlayer}
                     url={video[0]}
-                    playing
+                    playing={video[2]}
                     height="600"
                     width="800"
                     volume={video[1]}
-                    // onEnded={() => setPlayer('')}
-                    onEnded={() => SetAnsweredQuestion(questionId, answer, video)}
+                    controls={video[3]}
+                    onEnded={
+                        () => {setPlayer('');SetAnsweredQuestion(questionId, answer, video)}
+                    }
                 />
             )
         else SetAnsweredQuestion(questionId, answer, video)
     }
 
 	function SetAnsweredQuestion(questionId, answer, video) {
-        // if (video[0] !== "")
-        //     setPlayer(
-        //         <ReactPlayer
-        //             className={classes.reactPlayer}
-        //             url={video[0]}
-        //             playing
-        //             height="600"
-        //             width="800"
-        //             volume={video[1]}
-        //             onEnded={() => setPlayer('')}
-        //         />
-        //     );
+        
         var isCorrect = shownQuestionData.correctAnswer === answer;
         if (questionId === 10){
             finalAnswer.push({ currentTeam, questionId, isCorrect })
@@ -57,22 +48,6 @@ const CategoryOverview = props => {
         // console.log(answeredQuestions)
 		if (currentTeam === 'team1') setCurrentTeam('team2');
 		else setCurrentTeam('team1');
-		// TODO Play video from here
-		// var videoUrl = 'videos/1.' + questionId + '.mp4';
-        // var videoUrl = 'videos/1.1Trim.mp4';
-        // var videoUrl = video;
-        // if (video[0] !== "")
-        //     setPlayer(
-        //         <ReactPlayer
-        //             className={classes.reactPlayer}
-        //             url={video[0]}
-        //             playing
-        //             height="600"
-        //             width="800"
-        //             volume={video[1]}
-        //             onEnded={() => setPlayer('')}
-        //         />
-        //     );
 	}
 
 	function ShowQuestion(data) {
