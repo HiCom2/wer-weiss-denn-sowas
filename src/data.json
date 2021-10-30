@@ -133,7 +133,7 @@
             }
         ],
         "correctAnswer": "c",
-        "video": ["videos/Musik.mp4",0.4,true,false],
+        "video": ["videos/Musik.mp4",0.55,true,false],
         "picture": "",
         "audio" : "audio/Musikfrage_trim.mp3"
     },
