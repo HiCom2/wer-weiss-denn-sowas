@@ -1,244 +1,244 @@
 [
-	{
-		"id": 1,
-		"category": "Literatur",
-		"question": "Im Jahr 2010 berechnete der Internetkonzern Google nach intensiver Recherche die Anzahl von publizierten Büchern weltweit. Wie viele verschiedenen Bücher wurden gezählt?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "130 Millionen Bücher"
-			},
-			{
-				"id": "b",
-				"text": "480 Millionen Bücher"
-			},
-			{
-				"id": "c",
-				"text": "90 Millionen Bücher"
-			}
-		],
-		"correctAnswer": "b",
+    {
+        "id": 1,
+        "category": "Literatur",
+        "question": "Im Jahr 2010 berechnete der Internetkonzern Google nach intensiver Recherche die Anzahl von publizierten Büchern weltweit. Wie viele verschiedenen Bücher wurden gezählt?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "130 Millionen Bücher"
+            },
+            {
+                "id": "b",
+                "text": "480 Millionen Bücher"
+            },
+            {
+                "id": "c",
+                "text": "90 Millionen Bücher"
+            }
+        ],
+        "correctAnswer": "b",
         "video": "",
         "picture": ""
-	},
-	{
-		"id": 2,
-		"category": "KFZ",
-		"question": "Das ausgezeichnete, zuverlässige und elegante Modell Astra wird vom deutschen Kraffahzeughersteller Opel gefertigt. Nur die besten Menschen fahren Astra. Zu welchem mulinationalen Konzern gehört die Marke inzwischen?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Gallantis"
-			},
-			{
-				"id": "b",
-				"text": "Stellantis"
-			},
-			{
-				"id": "c",
-				"text": "O’zapft is"
-			}
-		],
-		"correctAnswer": "b",
+    },
+    {
+        "id": 2,
+        "category": "KFZ",
+        "question": "Das ausgezeichnete, zuverlässige und elegante Modell Astra wird vom deutschen Kraftfahrzeughersteller Opel gefertigt. Nur die besten Menschen fahren Astra. Zu welchem mulinationalen Konzern gehört die Marke inzwischen?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Gallantis"
+            },
+            {
+                "id": "b",
+                "text": "Stellantis"
+            },
+            {
+                "id": "c",
+                "text": "O’zapft is"
+            }
+        ],
+        "correctAnswer": "b",
         "video": "",
         "picture": ""
-	},
-	{
-		"id": 3,
-		"category": "Biologie",
-		"question": "Was ist auf diesem Bild zu sehen?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Baumpilz"
-			},
-			{
-				"id": "b",
-				"text": "Sternschnecke"
-			},
-			{
-				"id": "c",
-				"text": "Halluzinogener Kaktus"
-			}
-		],
-		"correctAnswer": "c",
+    },
+    {
+        "id": 3,
+        "category": "Biologie",
+        "question": "Was ist auf diesem Bild zu sehen?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Baumpilz"
+            },
+            {
+                "id": "b",
+                "text": "Sternschnecke"
+            },
+            {
+                "id": "c",
+                "text": "Halluzinogener Kaktus"
+            }
+        ],
+        "correctAnswer": "c",
         "video": "",
         "picture": "pictures/halu_kaktus.png"
-	},
+    },
     {
-		"id": 4,
-		"category": "DDR",
-		"question": "Wo lässt sich die Büroetage von Erich Mielke besuchen?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Haus 1 des Ministerium für Staatsicherheit in Berlin Lichtenberg"
-			},
-			{
-				"id": "b",
-				"text": "Staatsratsgebäude am Schloßplatz 1 im Berliner Ortsteil Mitte"
-			},
-			{
-				"id": "c",
-				"text": "Räumlichkeiten des KP-Chef in Greußenheim Mitte"
-			}
-		],
-		"correctAnswer": "a",
-        "video": "",
+        "id": 4,
+        "category": "DDR",
+        "question": "Wo lässt sich die Büroetage von Erich Mielke besuchen?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Haus 1 des Ministerium für Staatsicherheit in Berlin Lichtenberg"
+            },
+            {
+                "id": "b",
+                "text": "Staatsratsgebäude am Schloßplatz 1 im Berliner Ortsteil Mitte"
+            },
+            {
+                "id": "c",
+                "text": "Räumlichkeiten des KP-Chef in Greußenheim Mitte"
+            }
+        ],
+        "correctAnswer": "a",
+        "video": "videos/DDR.mp4",
         "picture": ""
-	},
-	{
-		"id": 5,
-		"category": "Clever!",
-		"question": "In welcher Vereinigung arbeiten Clever & Smart in ihren seit 1958 erschienenen Comic-Serien?",
-		"answers": [
-			{
-				"id": "a",
-				"text": " T.I.A. (Trans-Internationaler-Agentenring)"
-			},
-			{
-				"id": "b",
-				"text": "O.M.I (Organisation Machthungriger Intelligenzbestien)"
-			},
-			{
-				"id": "c",
-				"text": "O.P.A. (Organisation Pazifistischer Agenten)"
-			}
-		],
-		"correctAnswer": "a",
-        "video": "",
-        "picture": ""
-	},
-	{
-		"id": 6,
-		"category": "Musik",
-		"question": "Was ergab eine Langzeitstudie, als Wissenschaftler den Büroalltag genauer unter die Lupe nahmen?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "80 Prozent aller Teelöffel verschwinden innerhalb von fünf Monaten."
-			},
-			{
-				"id": "b",
-				"text": "40 Prozent aller Wandkalender werden erst im März aufgehängt."
-			},
-			{
-				"id": "c",
-				"text": "30 Prozent aller Ausdrucke werden niemals abgeholt."
-			}
-		],
-		"correctAnswer": "a",
-        "video": "",
-        "picture": ""
-	},
-	{
-		"id": 7,
-		"category": "Im Labor",
-		"question": "Einen Schwalbenschwanz nutzen ...?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Schreiner, um Holzstücke ohne Nägel oder Schrauben zu verbinden"
-			},
-			{
-				"id": "b",
-				"text": "Elektriker, um freiliegende Kabel abzuisolieren"
-			},
-			{
-				"id": "c",
-				"text": "Maler, um hohe Häuserwände zu streichen"
-			}
-		],
-		"correctAnswer": "a",
-        "video": "",
-        "picture": ""
-	},
-	{
-		"id": 8,
-		"category": "?",
-		"question": "Am 13. November 1949 erlebte die frische Bundeshauptstadt Bonn den ersten Staatsbesuch ihrer Geschichte. Wer kam zu Besuch?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Frankreichs Präsident Vincent Auriol"
-			},
-			{
-				"id": "b",
-				"text": "US-Außenminister Dean Acheson"
-			},
-			{
-				"id": "c",
-				"text": "Großbritanniens Premierminister Clement Attlee"
-			}
-		],
-		"correctAnswer": "c",
-        "video": "",
-        "picture": ""
-	},
-	{
-		"id": 9,
-		"category": "Wie bitte?",
-		"question": "Was erreicht die Lautstärke von 120 Dezibel?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Airbag-Entfaltung"
-			},
-			{
-				"id": "b",
-				"text": "Babyschreien"
-			},
-			{
-				"id": "c",
-				"text": "Kreissäge"
-			}
-		],
-		"correctAnswer": "b",
-        "video": "",
-        "picture": ""
-	},
+    },
     {
-		"id": 10,
-		"category": "Finale Team 1",
-		"question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Japan"
-			},
-			{
-				"id": "b",
-				"text": "Brasilien"
-			},
-			{
-				"id": "c",
-				"text": "Vietnam"
-			}
-		],
-		"correctAnswer": "a",
+        "id": 5,
+        "category": "Clever!",
+        "question": "In welcher Vereinigung arbeiten Clever & Smart in ihren seit 1958 erschienenen Comic-Serien?",
+        "answers": [
+            {
+                "id": "a",
+                "text": " T.I.A. (Trans-Internationaler-Agentenring)"
+            },
+            {
+                "id": "b",
+                "text": "O.M.I (Organisation Machthungriger Intelligenzbestien)"
+            },
+            {
+                "id": "c",
+                "text": "O.P.A. (Organisation Pazifistischer Agenten)"
+            }
+        ],
+        "correctAnswer": "a",
         "video": "",
         "picture": ""
-	},
+    },
     {
-		"id": 11,
-		"category": "Finale Team 2",
-		"question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
-		"answers": [
-			{
-				"id": "a",
-				"text": "Japan"
-			},
-			{
-				"id": "b",
-				"text": "Brasilien"
-			},
-			{
-				"id": "c",
-				"text": "Vietnam"
-			}
-		],
-		"correctAnswer": "a",
+        "id": 6,
+        "category": "Musik",
+        "question": "Wie heißt der Song zu dieser Melodie?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "(Don't Fear) The Reaper - Blue Oyster Cult"
+            },
+            {
+                "id": "b",
+                "text": "Every Breath You Take - The Police"
+            },
+            {
+                "id": "c",
+                "text": "Crazy Train - Ozzy Osbourne"
+            }
+        ],
+        "correctAnswer": "c",
+        "video": "videos/Musikfrage_Aufloesung.mp4",
+        "picture": ""
+    },
+    {
+        "id": 7,
+        "category": "Im Labor",
+        "question": "Was nimmt ein erfahrener Chemiker mit auf eine einsame Insel?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Calciumsulfat-Hydrat und Wasser"
+            },
+            {
+                "id": "b",
+                "text": "Ethansäure, Salz und Eisennagel"
+            },
+            {
+                "id": "c",
+                "text": "Glycerin und Kaliumpermanganat"
+            }
+        ],
+        "correctAnswer": "a",
         "video": "",
         "picture": ""
-	}
+    },
+    {
+        "id": 8,
+        "category": "?",
+        "question": "Am 13. November 1949 erlebte die frische Bundeshauptstadt Bonn den ersten Staatsbesuch ihrer Geschichte. Wer kam zu Besuch?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Frankreichs Präsident Vincent Auriol"
+            },
+            {
+                "id": "b",
+                "text": "US-Außenminister Dean Acheson"
+            },
+            {
+                "id": "c",
+                "text": "Großbritanniens Premierminister Clement Attlee"
+            }
+        ],
+        "correctAnswer": "c",
+        "video": "",
+        "picture": ""
+    },
+    {
+        "id": 9,
+        "category": "Wie bitte?",
+        "question": "Was erreicht die Lautstärke von 120 Dezibel?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Airbag-Entfaltung"
+            },
+            {
+                "id": "b",
+                "text": "Babyschreien"
+            },
+            {
+                "id": "c",
+                "text": "Kreissäge"
+            }
+        ],
+        "correctAnswer": "b",
+        "video": "",
+        "picture": ""
+    },
+    {
+        "id": 10,
+        "category": "Finale Team 1",
+        "question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Japan"
+            },
+            {
+                "id": "b",
+                "text": "Brasilien"
+            },
+            {
+                "id": "c",
+                "text": "Vietnam"
+            }
+        ],
+        "correctAnswer": "a",
+        "video": "",
+        "picture": ""
+    },
+    {
+        "id": 11,
+        "category": "Finale Team 2",
+        "question": "Welches dieser Länder hat den höchsten prozentualen Anteil der Waldfläche an Landesfläche?",
+        "answers": [
+            {
+                "id": "a",
+                "text": "Japan"
+            },
+            {
+                "id": "b",
+                "text": "Brasilien"
+            },
+            {
+                "id": "c",
+                "text": "Vietnam"
+            }
+        ],
+        "correctAnswer": "a",
+        "video": "",
+        "picture": ""
+    }
 ]
